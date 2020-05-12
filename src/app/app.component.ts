@@ -1,4 +1,3 @@
-// @ts-nocheck5
 import { Component, AfterViewInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, fromEvent, interval, from, merge } from 'rxjs';
