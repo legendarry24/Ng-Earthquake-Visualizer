@@ -42,39 +42,3 @@ td, th {
 	padding: 0.5rem;
 	text-align: left;
 }
-
-#tweet_container {
-	flex-grow: 1.5;
-	width: 250px;
-	height: 100%;
-	overflow-y: auto;
-}
-
-#tweet_container:empty {
-	display: none;
-}
-
-.tweet {
-	position: relative;
-	border-bottom:1px solid #ccc;
-	padding: 10px;
-	min-height: 50px;
-}
-
-.tweet .avatar {
-	float: left;
-	margin-right: 10px;
-}
-
-.tweet .content {
-	font-size: 12px;
-	margin-right: 20px;
-}
-
-.tweet .time {
-	text-align: right;
-	margin: 10px 10px 0 0;
-	font-style: normal;
-	font-size: 11px;
-	color: #aaa;
-}
